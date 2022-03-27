@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="botones" href="./index.html">Inicio</a>
+            <a class="botones" href="./about.html">Acerca de</a>
+            <a class="botones" href="./contact.html">Contacto</a>
+            <a class="botones" href="./form.html">Registro</a>
+            <a class="botones" href="./branchs.html">Sucursales</a>
+        </nav>
+        <h1>Vanguardias Artisticas del S.XX</h1>
+    </header>
+    <main>
+        <h2>Formulario de Registro</h2>
+
+        <form action="./show_data.html" target="_blank">
+            <div class="campo">
+                <label for="Nombre">Nombre:</label> 
+                <input type="text" name="Nombre" placeholder="Ingrese su nombre aqui" size="30">
+            </div> 
+            <div class="campo">
+                <label for="Apellido">Apellido:</label> 
+                <input type="text" name="Apellido" placeholder="Ingrese su apellido aqui" size="30"> 
+            </div>
+            <div class="campo">
+                <label for="Direccion">Direccion:</label>
+                <input type="text" name="Direccion" placeholder="Ingrese su dirección aqui" size="30">
+            </div>
+            <div class="campo">
+                <label for="Ciudad">Ciudad:</label>
+                <input type="text" name="Ciudad" value="CABA" size="30">
+            </div>
+            <div class="campo">
+                <label for="Codigo Postal">Codigo Postal:</label>
+                <input type="text" name="Codigo Postal" placeholder="Ingrese su codigo postal aqui" size="30">
+            </div>
+            <div class="campo">
+                <label for="Fecha de Nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" name="Fecha de Nacimiento" placeholder="Ingrese su fecha de nacimiento aqui" size="30">
+            </div>
+            <div class="campo">
+                <label for="Genero">Genero:</label>
+                <input type="radio" name="Genero" value="H""> Hombre
+                <input type="radio" name="Genero" value="M""> Mujer
+                <input type="radio" name="Genero" value="X""> Otro
+            </div>
+            <div class="campo">
+                <label for="Estudios">Estudios:</label>
+                <input type="checkbox" name="Estudios" value="1""> Primarios
+                <input type="checkbox" name="Estudios" value="2""> Secundarios
+                <input type="checkbox" name="Estudios" value="3""> Terciarios
+                <input type="checkbox" name="Estudios" value="4""> Universitarios
+                <input type="checkbox" name="Estudios" value="5""> Otros
+            </div>
+            <div class="campo">
+                <input type="Submit" value="ENVIAR">
+            </div>
+            <div class="campo">
+                <label for="Mensaje">Si usted hace click en el boton "Enviar, la informaicno sera enviada a la pagina show_data".</label>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p id="copy">Derechos reservados @2022</p>
+    </footer>
+</body>
+
+</html>

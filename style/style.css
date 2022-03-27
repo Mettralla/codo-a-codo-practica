@@ -1,0 +1,93 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+nav,h1 {
+    background-color: #ffa500;
+}
+
+nav {
+    padding: 10px;
+}
+
+.botones {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(236, 130, 92);
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 12px 0px 12px 0px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.pintura {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.pieFoto {
+    text-align: center;
+    padding: 7px;
+    font-size: small;
+}
+
+.sinopsis {
+    text-align: justify;
+    padding: 10px;
+}
+
+li {
+    padding: 12px;
+}
+
+.contacto {
+    padding: 10px 10px 10px 20px;
+}
+
+tr {
+    text-align: left;
+}
+
+th,td {
+    padding: 10px 10px 10px 20px;
+}
+
+.campo {
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.maps {
+    padding: 25px;
+}
+
+.direcciones {
+    padding: 10px 20px;
+}
+
+footer {
+    padding-top: 10px
+}
+
+#copy {
+    text-align: center;
+    background-color: orange;
+    font-weight: bold;
+    padding: 10px 20px 20px 20px;
+}
+
+
+
+
+
+
+
